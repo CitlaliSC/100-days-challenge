@@ -2,46 +2,29 @@
 
 * {
     box-sizing: border-box;
+    font-family: Montserrat;
 }
 
 .main {
     display: block;
     justify-content: center;
     text-align: center;
-    align-items: center;
-    font-family: Montserrat;
     padding-top: 2%;
 }
 
-.meal {
-    display: block;
-    justify-content: center;
-    text-align: justify;
-    align-items: center;
-    font-family: Montserrat;
-    padding: 10%;
-    padding-top: 0%;
-}
-
-.meal img {
-    width: 300px;
-    padding: 10%;
-}
-
-.btn {
+button {
+    background-color: white;
+    border: 1 black solid;
+    border-radius: 20px;
     width: 100px;
     height: 30px;
-    border: 2px solid rgb(35, 41, 48);
-    border-radius: 20px;
+    cursor: pointer;
 }
 
-.btn:hover {
-    background-color: rgb(35, 41, 48);
+button:hover {
+    background-color: black;
     color: white;
 }
 
-.both {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-}
+/* Meal div */
+
